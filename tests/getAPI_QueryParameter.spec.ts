@@ -1,0 +1,42 @@
+//Load playwright module
+import {test, expect} from "@playwright/test";
+import {stringFormat} from "../utils/common.ts"
+
+const dynamicJSONBody= require("../test_Data/postDynamicData.json");
+//create post API request
+test.describe.configure({mode:"serial"});
+test("Post request using Dynamic Data from JSON file",async({request})=>{
+
+    const newDynamicJsonData=stringFormat(JSON.stringify(dynamicJSONBody),"Dhoni","Dhawas","Snacks")
+    //newDynamicJsonData is new string, need to convert string into JSON, so JSON.parse() is used
+    const apiResponse=await request.post(`/booking`,{
+        data:JSON.parse(newDynamicJsonData)
+    })
+    const apiResponseBody=await apiResponse.json();
+    console.log(apiResponseBody);
+    //validate status code
+    expect(apiResponse.ok()).toBeTruthy();
+    expect(apiResponse.status()).toBe(200);
+    //validate JSON response object
+    expect(apiResponseBody.booking).toHaveProperty("firstname", "Dhoni");
+    expect(apiResponseBody.booking).toHaveProperty("lastname", "Dhawas");
+    //validate nested JSON response object
+    //expect(apiResponseBody.booking.bookingdates).toHaveProperty("checkin", checkin);
+    //expect(apiResponseBody.booking.bookingdates).toHaveProperty("checkout", checkout);
+    console.log("=====================================");
+    console.log("============Query Parameter=========================");
+    const bookingID= await apiResponseBody.bookingid;
+    const GetAPIResponse=await request.get(`/booking/`,{
+        params:{
+            "firstname":"Dhoni"
+        }
+    });
+    const GetAPIResponseJSON=await GetAPIResponse.json();
+    console.log(GetAPIResponseJSON);
+    expect(apiResponse.ok()).toBeTruthy();
+    expect(apiResponse.status()).toBe(200);
+
+
+})
+
+
