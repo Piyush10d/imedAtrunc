@@ -1,7 +1,7 @@
 //Load playwright module
 import {test, expect} from "@playwright/test";
 import {stringFormat} from "../utils/common.ts"
-
+//new chnages
 const dynamicJSONBody= require("../test_Data/postDynamicData.json");
 //create post API request
 test.describe.configure({mode:"serial"});
