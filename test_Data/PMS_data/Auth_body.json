@@ -1,0 +1,10 @@
+{
+    "username":"system",
+    "password":"isaplim",
+    "userGroup":"SYSTEM",
+    "hospitalUnit":"Ein1",
+    "orgUnit":"ADMIN",
+    "orgUnitDescription":"Administration",
+    "culture":"de-DE",
+    "hostName":""
+}
