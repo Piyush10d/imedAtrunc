@@ -29,7 +29,8 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-     baseURL: 'https://restful-booker.herokuapp.com',
+     //baseURL: 'https://restful-booker.herokuapp.com',
+     baseURL: 'https://rd-vm76.rd.dtcs.local/iM1AS_OA828GN',
      screenshot:'on',
      video:'on',
      headless:false,
