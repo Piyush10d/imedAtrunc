@@ -1,6 +1,4 @@
 //Load playwright module
-//Piyush
-//Hello
 import {test, expect} from "@playwright/test";
 const tokenData=require("../test_Data/tokenData.json")
 const postRequestData=require("../test_Data/postRequest.json");

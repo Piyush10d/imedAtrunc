@@ -1,0 +1,1167 @@
+{
+    "admissionMode": 0,
+    "admissionData": {
+      "patientData": {
+        "id": 0,
+        "status": null,
+        "allowPatientDataSharing": null,
+        "dataSharingPeriod": {
+          "effectiveStartDate": null,
+          "effectiveEndDate": null,
+          "effectiveStartTime": null,
+          "effectiveEndTime": null,
+          "effectiveStartDateTime": "0000-12-31T23:07:00.000Z",
+          "effectiveEndDateTime": "0000-12-31T23:07:00.000Z",
+          "properties": null,
+          "catProperties": null,
+          "dirtyProperties": null,
+          "translation": null
+        },
+        "familyNameSoundExCode": null,
+        "givenNameSoundExCode": null,
+        "searchGivenName": null,
+        "searchFamilyName": null,
+        "searchPseudoGivenName": null,
+        "searchPseudoFamilyName": null,
+        "description": null,
+        "picDocusID": null,
+        "patientPhotoConsentStatus": 0,
+        "kvBirthDate": null,
+        "bicObjektID": null,
+        "patientIdentifier": {
+          "externAdminId": null,
+          "patientNumber": null,
+          "hL7StringId": null,
+          "hostId": 0
+        },
+        "hospitalUnit": null,
+        "addressingTitle": {
+          "code": "Herr",
+          "displayCode": "Herr",
+          "description": "Herr",
+          "displayText": "Herr - Herr",
+          "displayStyle": "codeAndDescriptionBoth",
+          "dropdownStyle": "codeAndDescriptionBoth",
+          "registerColumns": []
+        },
+        "birthDateTime": "2024-04-25T18:30:00.000Z",
+        "ethnicGroup": null,
+        "gender": {
+          "code": "M",
+          "description": "männlich",
+          "displayCode": "M",
+          "registerColumns": [],
+          "displayStyle": "codeAndDescriptionBoth",
+          "dropdownStyle": "codeAndDescriptionBoth"
+        },
+        "languageCommunication": {
+          "id": 0,
+          "code": null,
+          "description": null,
+          "displaycode": null
+        },
+        "maritalStatus": {
+          "id": 0,
+          "code": null,
+          "description": null,
+          "displaycode": null
+        },
+        "nationality": {
+          "code": "DE",
+          "displayCode": "DE",
+          "description": "Deutschland",
+          "displayText": "DE - Deutschland",
+          "displayStyle": "codeAndDescriptionBoth",
+          "dropdownStyle": "codeAndDescriptionBoth",
+          "registerColumns": []
+        },
+        "occupation": null,
+        "organDonorIndication": null,
+        "religiousAffiliation": {
+          "id": 0,
+          "code": null,
+          "description": null,
+          "displaycode": null
+        },
+        "representation": 0,
+        "title": {
+          "id": 0,
+          "code": null,
+          "description": null,
+          "displaycode": null,
+          "displayStyle": "codeAndDescriptionBoth",
+          "dropdownStyle": "codeAndDescriptionBoth"
+        },
+        "personName": {
+          "familyName": "{{patName}}",
+          "givenName": "Deva",
+          "prefixName": {
+            "id": 0,
+            "code": null,
+            "description": null,
+            "displaycode": null,
+            "displayStyle": "codeAndDescriptionBoth",
+            "dropdownStyle": "codeAndDescriptionBoth"
+          },
+          "suffixName": {
+            "id": 0,
+            "code": null,
+            "description": null,
+            "displaycode": null,
+            "displayStyle": "codeAndDescriptionBoth",
+            "dropdownStyle": "codeAndDescriptionBoth"
+          },
+          "phoneticGivenName": null,
+          "phoneticFamilyName": null,
+          "maidenName": null,
+          "birthNamePrefix": {
+            "code": "",
+            "description": "",
+            "displayCode": "",
+            "displayStyle": "codeAndDescriptionBoth",
+            "dropdownStyle": "codeAndDescriptionBoth",
+            "displayText": ""
+          },
+          "birthNameSuffix": {
+            "code": "",
+            "description": "",
+            "displayCode": "",
+            "displayStyle": "codeAndDescriptionBoth",
+            "dropdownStyle": "codeAndDescriptionBoth",
+            "displayText": ""
+          }
+        },
+        "personIDs": {
+          "mpiNumber": null,
+          "nationalIdNumber": {
+            "id": 0,
+            "code": null,
+            "description": null,
+            "displaycode": null
+          },
+          "socialInsuranceNumber": null
+        },
+        "personsBloodGroup": {
+          "abo": null,
+          "rhFactor": null
+        },
+        "personTelecomInfo": {
+          "eMail": null,
+          "eMailInternal": null,
+          "mobile": null,
+          "pager": null,
+          "telex": null,
+          "telFAX": null,
+          "telPrimary": null,
+          "telVacation": null,
+          "telWorkDirect": null,
+          "telWorkPublic": null
+        },
+        "deathInformation": {
+          "deathCause": {
+            "id": 0,
+            "code": null,
+            "description": null,
+            "displaycode": null,
+            "displayStyle": "codeAndDescriptionBoth",
+            "dropdownStyle": "codeAndDescriptionBoth"
+          },
+          "deathDate": null,
+          "deathTime": null,
+          "description": null,
+          "funeralParlor": null,
+          "isPatientDead": null,
+          "deathDateTime": "0000-12-31T23:07:00.000Z",
+          "properties": null,
+          "catProperties": null,
+          "dirtyProperties": null,
+          "translation": null
+        },
+        "primaryContact": {
+          "isPreferredAddress": true,
+          "objectId": 0,
+          "objectType": null,
+          "addressUse": null,
+          "addressType": null,
+          "addressId": 0,
+          "additionalAddressLine": null,
+          "careOf": null,
+          "district": null,
+          "city": {
+            "code": "berlin",
+            "description": "",
+            "displayStyle": "codeAndDescriptionBoth",
+            "dropdownStyle": "codeAndDescriptionBoth"
+          },
+          "country": {
+            "code": "DE",
+            "displayCode": "DE",
+            "description": "Deutschland",
+            "displayText": "DE - Deutschland",
+            "displayStyle": "codeAndDescriptionBoth",
+            "dropdownStyle": "codeAndDescriptionBoth",
+            "registerColumns": [
+              {
+                "id": "txtIsPincodeValidationRequiredpatientWizardpatientWizard1cc9f09a-953a-4f5a-bd90-b2b4645517cb",
+                "column": "VALIDATEADDRESS",
+                "columnValue": "J",
+                "showInDropDown": false
+              }
+            ]
+          },
+          "county": null,
+          "postalCode": "68219",
+          "postBox": null,
+          "postBoxPostalCode": null,
+          "precinct": null,
+          "state": {
+            "code": "",
+            "description": "",
+            "displayStyle": "codeAndDescriptionBoth",
+            "dropdownStyle": "codeAndDescriptionBoth"
+          },
+          "status": null,
+          "streetAddressLine": "124",
+          "houseno": null,
+          "officialAreaCode": null,
+          "isValidated": null,
+          "cityPostBoxCode": null,
+          "postBoxCountry": null,
+          "displayText": null,
+          "rowID": null,
+          "itbrowid": 0,
+          "fingerPrintText": null,
+          "recordStatus": 1,
+          "properties": null,
+          "catProperties": null,
+          "dirtyProperties": null,
+          "translation": null,
+          "isValidPincode": false
+        },
+        "personsEmployerInfo": {
+          "employerOrganizationName": null,
+          "startTimeWork": null,
+          "endTimeWork": null,
+          "employerCode": null,
+          "employerTelecomInfo": {},
+          "effectivePeriod": null,
+          "workAddress": {
+            "city": {
+              "code": "",
+              "description": "",
+              "displayCode": "",
+              "registerColumns": []
+            },
+            "country": {
+              "code": "",
+              "description": "",
+              "displayCode": "",
+              "registerColumns": [],
+              "displayStyle": "codeAndDescriptionBoth",
+              "dropdownStyle": "codeAndDescriptionBoth"
+            }
+          },
+          "jobTitle": null,
+          "selectedEmployer": {
+            "employer": {
+              "coveredBy": {
+                "code": "",
+                "description": ""
+              }
+            },
+            "healthcarePractitioner": {
+              "practiceDetails": {
+                "practiceValidityPeriod": {}
+              },
+              "specialityArea": {
+                "code": "",
+                "description": ""
+              },
+              "organizationCode": {
+                "code": "",
+                "description": ""
+              },
+              "role": {
+                "code": "",
+                "description": ""
+              },
+              "educationQualifications": []
+            },
+            "healthcareProvider": {},
+            "organizationDetails": {
+              "seperator": ", ",
+              "postalAddress": {
+                "city": {
+                  "code": "",
+                  "description": "",
+                  "displayCode": "",
+                  "registerColumns": []
+                },
+                "country": {
+                  "code": "",
+                  "description": "",
+                  "displayCode": "",
+                  "registerColumns": []
+                }
+              },
+              "teleCommunication": {},
+              "suffixName": {
+                "code": "",
+                "description": ""
+              },
+              "prefixName": {
+                "code": "",
+                "description": ""
+              },
+              "displayText": null,
+              "code": null
+            },
+            "insuranceCompany": {
+              "insuranceCenter": {
+                "code": "",
+                "description": ""
+              },
+              "costBearerType": {
+                "code": "",
+                "description": ""
+              }
+            }
+          }
+        },
+        "organDonorDescription": null,
+        "birthPlace": null,
+        "birthCountry": {
+          "id": 0,
+          "code": null,
+          "description": null,
+          "displaycode": null
+        },
+        "vipInfo": {
+          "vipCode": null,
+          "pseudoFamilyName": null,
+          "pseudoGivenName": null
+        },
+        "patientIndicators": {
+          "patientId": 0,
+          "isAdmissionThroughWizard": "J",
+          "isExistInISH": null,
+          "isHiddenFromReception": null,
+          "isPastor": null,
+          "isEmergencyDataEntry": null,
+          "isKVBirthDate": null,
+          "ishQuickAdmission": null,
+          "indicationDeceased": null,
+          "hasPatientAlarm": null,
+          "isExternalPatient": null,
+          "iskvBirthDate": "N"
+        },
+        "county": {
+          "id": 0,
+          "code": null,
+          "description": null,
+          "displaycode": null
+        },
+        "relatives": [],
+        "patientDetails": {
+          "id": 0,
+          "additionalTelecomInfo": null,
+          "addtionalPatientIdentifier": null,
+          "addtionalPersonIdentifier": null,
+          "rowID": null,
+          "itbrowid": 0,
+          "fingerPrintText": null,
+          "recordStatus": 1,
+          "properties": null,
+          "catProperties": null,
+          "dirtyProperties": null,
+          "translation": null
+        },
+        "displayText": null,
+        "patientInitials": null,
+        "addressList": [
+          {
+            "isPreferredAddress": true,
+            "objectId": 0,
+            "objectType": null,
+            "addressUse": null,
+            "addressType": null,
+            "addressId": 0,
+            "additionalAddressLine": null,
+            "careOf": null,
+            "district": null,
+            "city": {
+              "code": "berlin",
+              "description": "",
+              "displayStyle": "codeAndDescriptionBoth",
+              "dropdownStyle": "codeAndDescriptionBoth"
+            },
+            "country": {
+              "code": "DE",
+              "displayCode": "DE",
+              "description": "Deutschland",
+              "displayText": "DE - Deutschland",
+              "displayStyle": "codeAndDescriptionBoth",
+              "dropdownStyle": "codeAndDescriptionBoth",
+              "registerColumns": [
+                {
+                  "id": "txtIsPincodeValidationRequiredpatientWizardpatientWizard1cc9f09a-953a-4f5a-bd90-b2b4645517cb",
+                  "column": "VALIDATEADDRESS",
+                  "columnValue": "J",
+                  "showInDropDown": false
+                }
+              ]
+            },
+            "county": null,
+            "postalCode": "68219",
+            "postBox": null,
+            "postBoxPostalCode": null,
+            "precinct": null,
+            "state": {
+              "code": "",
+              "description": "",
+              "displayStyle": "codeAndDescriptionBoth",
+              "dropdownStyle": "codeAndDescriptionBoth"
+            },
+            "status": null,
+            "streetAddressLine": "124",
+            "houseno": null,
+            "officialAreaCode": null,
+            "isValidated": null,
+            "cityPostBoxCode": null,
+            "postBoxCountry": null,
+            "displayText": null,
+            "rowID": null,
+            "itbrowid": 0,
+            "fingerPrintText": null,
+            "recordStatus": 1,
+            "properties": null,
+            "catProperties": null,
+            "dirtyProperties": null,
+            "translation": null,
+            "isValidPincode": false
+          }
+        ],
+        "fingerPrint": {
+          "creatingDateTime": null,
+          "creator": null,
+          "deletingDate": null,
+          "deletor": null,
+          "editingDateTime": null,
+          "editor": null
+        },
+        "patientIdentifierList": [],
+        "patientAge": null,
+        "isPatientVIP": false,
+        "rowID": null,
+        "itbrowid": 0,
+        "fingerPrintText": null,
+        "recordStatus": 1,
+        "properties": null,
+        "catProperties": null,
+        "dirtyProperties": null,
+        "translation": null
+      },
+      "encounterData": {
+        "accidentData": null,
+        "id": 0,
+        "encounterReason": {
+          "code": "",
+          "description": "",
+          "displayStyle": "descriptionOnly",
+          "dropdownStyle": "codeAndDescriptionBoth"
+        },
+        "admissionRemark": null,
+        "admissionType": "stationaer",
+        "admitter": null,
+        "admittingLocation": {
+          "id": 0,
+          "code": null,
+          "description": null,
+          "displaycode": null,
+          "displayStyle": "descriptionOnly",
+          "dropdownStyle": "codeAndDescriptionBoth"
+        },
+        "attender": null,
+        "caseId": 0,
+        "hospitalsUnit": null,
+        "isEmergency": "N",
+        "isPreventiveDetention": null,
+        "referralType": {
+          "id": 0,
+          "code": null,
+          "description": null,
+          "displaycode": null
+        },
+        "scheinId": null,
+        "status": null,
+        "encounterClass": "Aufnahme",
+        "billingVariantName": null,
+        "encounterType": {
+          "code": "normalAufn",
+          "description": "normale Aufnahme",
+          "displayCode": "normalAufn",
+          "registerColumns": [
+            {
+              "id": "txtIsEmergency",
+              "column": "ISEMERGENCY",
+              "columnValue": "N",
+              "showInDropDown": false
+            },
+            {
+              "id": "txtIsForeigner",
+              "column": "ISFOREIGNINSURED",
+              "columnValue": "N",
+              "showInDropDown": false
+            },
+            {
+              "id": "txtIsAccident",
+              "column": "ISTUNFALL",
+              "columnValue": "N",
+              "showInDropDown": false
+            }
+          ]
+        },
+        "location": {
+          "isTV": null,
+          "nursingTeam": {
+            "id": 0,
+            "code": null,
+            "description": null,
+            "displaycode": null
+          },
+          "station": {
+            "code": "E1A",
+            "description": "E1A",
+            "displayCode": "E1A",
+            "registerColumns": [],
+            "displayStyle": "descriptionOnly",
+            "dropdownStyle": "codeAndDescriptionBoth"
+          },
+          "telephone": null,
+          "rowID": null,
+          "itbrowid": 0,
+          "fingerPrintText": null,
+          "recordStatus": 1,
+          "properties": null,
+          "catProperties": null,
+          "dirtyProperties": null,
+          "translation": null
+        },
+        "period": {
+          "effectiveStartDate": "2025-01-20T11:30:09.000Z",
+          "effectiveEndDate": null,
+          "effectiveStartTime": "2025-01-20T11:30:09.000Z",
+          "effectiveEndTime": null,
+          "effectiveStartDateTime": "2025-01-20T11:30:09.000Z",
+          "effectiveEndDateTime": "0000-12-31T23:07:00.000Z",
+          "properties": null,
+          "catProperties": null,
+          "dirtyProperties": null,
+          "translation": null
+        },
+        "responsibleClinic": {
+          "clinic": {
+            "code": "ECH",
+            "description": "Chirurgie Haus St. Elisabeth",
+            "displayCode": "ECH",
+            "registerColumns": [],
+            "displayStyle": "descriptionOnly",
+            "dropdownStyle": "codeAndDescriptionBoth"
+          },
+          "nonBillableDays": null,
+          "rowID": null,
+          "itbrowid": 0,
+          "fingerPrintText": null,
+          "recordStatus": 1,
+          "properties": null,
+          "catProperties": null,
+          "dirtyProperties": null,
+          "translation": null
+        },
+        "externalSystemIdentifier": null,
+        "isForeigner": "N",
+        "additionalDetails": {
+          "elementNr": null,
+          "clinicalPathwayNr": null,
+          "isReleased": null
+        },
+        "externalEncounter": {
+          "contactDoctor": null,
+          "organization": null,
+          "effectivePeriod": {
+            "validFrom": null,
+            "validTill": null
+          },
+          "organizationDetails": null
+        },
+        "caseAttributes": [],
+        "selectedExternalHospital": null,
+        "otherDoctors": [],
+        "familyDoctor": null,
+        "referralDoctor": null,
+        "episodeOfCareLinks": null,
+        "caseEmployer": {
+          "employerInfo": {
+            "employerOrganizationName": null,
+            "startTimeWork": null,
+            "endTimeWork": null,
+            "employerCode": null,
+            "employerTelecomInfo": {},
+            "effectivePeriod": null,
+            "workAddress": {
+              "city": {
+                "code": "",
+                "description": "",
+                "displayCode": "",
+                "registerColumns": []
+              },
+              "country": {
+                "code": "",
+                "description": "",
+                "displayCode": "",
+                "registerColumns": [],
+                "displayStyle": "codeAndDescriptionBoth",
+                "dropdownStyle": "codeAndDescriptionBoth"
+              }
+            },
+            "jobTitle": null,
+            "selectedEmployer": {
+              "employer": {
+                "coveredBy": {
+                  "code": "",
+                  "description": ""
+                }
+              },
+              "healthcarePractitioner": {
+                "practiceDetails": {
+                  "practiceValidityPeriod": {}
+                },
+                "specialityArea": {
+                  "code": "",
+                  "description": ""
+                },
+                "organizationCode": {
+                  "code": "",
+                  "description": ""
+                },
+                "role": {
+                  "code": "",
+                  "description": ""
+                },
+                "educationQualifications": []
+              },
+              "healthcareProvider": {},
+              "organizationDetails": {
+                "seperator": ", ",
+                "postalAddress": {
+                  "city": {
+                    "code": "",
+                    "description": "",
+                    "displayCode": "",
+                    "registerColumns": []
+                  },
+                  "country": {
+                    "code": "",
+                    "description": "",
+                    "displayCode": "",
+                    "registerColumns": []
+                  }
+                },
+                "teleCommunication": {},
+                "suffixName": {
+                  "code": "",
+                  "description": ""
+                },
+                "prefixName": {
+                  "code": "",
+                  "description": ""
+                },
+                "displayText": null,
+                "code": null
+              },
+              "insuranceCompany": {
+                "insuranceCenter": {
+                  "code": "",
+                  "description": ""
+                },
+                "costBearerType": {
+                  "code": "",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "caseId": 0,
+          "nationality": null,
+          "occupation": null,
+          "rowID": null,
+          "itbrowid": 0,
+          "fingerPrintText": null,
+          "recordStatus": 1,
+          "properties": null,
+          "catProperties": null,
+          "dirtyProperties": null,
+          "translation": null
+        },
+        "caseDetails": null,
+        "diagnosisData": {
+          "diagnoseText": null,
+          "diagnosisCode1": null,
+          "diagnosisCode2": null
+        },
+        "rowID": null,
+        "itbrowid": 0,
+        "fingerPrintText": null,
+        "recordStatus": 1,
+        "properties": null,
+        "catProperties": null,
+        "dirtyProperties": null,
+        "translation": null,
+        "selectedCaseType": {
+          "code": "20",
+          "description": "stationäre Aufnahme",
+          "displayCode": "20",
+          "displayText": "stationäre Aufnahme",
+          "displayStyle": "descriptionOnly",
+          "dropdownStyle": "descriptionOnly"
+        },
+        "isAccident": "N"
+      },
+      "caseType": 20,
+      "accidentData": null,
+      "coverageContracts": [
+        {
+          "caseId": 0,
+          "coverageId": 0,
+          "subscriberRefId": null,
+          "contractType": {
+            "code": "116b",
+            "description": "Para 116b",
+            "displayCode": "116b",
+            "registerColumns": [],
+            "displayStyle": "codeAndDescriptionBoth",
+            "dropdownStyle": "codeAndDescriptionBoth"
+          },
+          "contractSign": {
+            "id": 0,
+            "code": null,
+            "description": null,
+            "displaycode": null
+          },
+          "underwriter": null,
+          "coverageInsuranceCard": {
+            "insuredPartyNumber": null,
+            "instituteId": null,
+            "title": null,
+            "cardHolderName": {
+              "familyName": null,
+              "givenName": null,
+              "prefixName": {
+                "id": 0,
+                "code": null,
+                "description": null,
+                "displaycode": null
+              },
+              "suffixName": {
+                "id": 0,
+                "code": null,
+                "description": null,
+                "displaycode": null
+              },
+              "phoneticGivenName": null,
+              "phoneticFamilyName": null,
+              "maidenName": null,
+              "birthNamePrefix": null,
+              "birthNameSuffix": null
+            },
+            "gender": null,
+            "birthDate": null,
+            "postalAddress": {
+              "addressId": 0,
+              "additionalAddressLine": null,
+              "careOf": null,
+              "district": null,
+              "city": null,
+              "country": null,
+              "county": null,
+              "postalCode": null,
+              "postBox": null,
+              "postBoxPostalCode": null,
+              "precinct": null,
+              "state": null,
+              "status": null,
+              "streetAddressLine": null,
+              "houseno": null,
+              "officialAreaCode": null,
+              "isValidated": null,
+              "cityPostBoxCode": null,
+              "postBoxCountry": null,
+              "displayText": null,
+              "rowID": null,
+              "itbrowid": 0,
+              "fingerPrintText": null,
+              "recordStatus": 1,
+              "properties": null,
+              "catProperties": null,
+              "dirtyProperties": null,
+              "translation": null
+            },
+            "dateCardRead": null,
+            "cardReaderDeviceId": null,
+            "validityEnd": null,
+            "validityPeriod": {
+              "validFrom": null,
+              "validTill": null
+            },
+            "insuredStatus": 0,
+            "supplimentaryInsuredStatus": null,
+            "personGroup": null,
+            "dmpIndicator": null,
+            "officialAreaCode": null,
+            "insuranceName": null,
+            "manualEntry": true
+          },
+          "rank": 1,
+          "fileRefNum": null,
+          "insuredParty": {
+            "coverageMembershipCode": {
+              "id": 0,
+              "code": null,
+              "description": null,
+              "displaycode": null
+            },
+            "properties": null,
+            "catProperties": null,
+            "dirtyProperties": null,
+            "translation": null
+          },
+          "hospitalUnit": null,
+          "fingerPrint": {
+            "creatingDateTime": null,
+            "creator": null,
+            "deletingDate": null,
+            "deletor": null,
+            "editingDateTime": null,
+            "editor": null
+          },
+          "remark": null,
+          "coverage": {
+            "patientId": 0,
+            "isDifferingInvoiceRecipient": null,
+            "validTill": "0000-12-31T23:07:00.000Z",
+            "policyHolder": null,
+            "hospitalUnit": null,
+            "fingerPrint": {
+              "creatingDateTime": null,
+              "creator": null,
+              "deletingDate": null,
+              "deletor": null,
+              "editingDateTime": null,
+              "editor": null
+            },
+            "isDeleted": false,
+            "transactionType": 0,
+            "externId": null,
+            "rowID": null,
+            "itbrowid": 0,
+            "fingerPrintText": null,
+            "recordStatus": 1,
+            "properties": null,
+            "catProperties": null,
+            "dirtyProperties": null,
+            "translation": null
+          },
+          "isSelfPaying": true,
+          "validityPeriod": {
+            "validFrom": "2024-04-25T18:30:00.000Z",
+            "validTill": "9998-12-31T18:30:00.000Z"
+          },
+          "displayText": null,
+          "isDeleted": false,
+          "isValidate": false,
+          "transactionType": 0,
+          "accountingVariant": null,
+          "insuranceCardData": null,
+          "cardSetId": null,
+          "isThirdPartyPayer": false,
+          "isHealthInsurance": false,
+          "guarantor": {
+            "id": 0,
+            "status": null,
+            "allowPatientDataSharing": null,
+            "dataSharingPeriod": {
+              "effectiveStartDate": null,
+              "effectiveEndDate": null,
+              "effectiveStartTime": null,
+              "effectiveEndTime": null,
+              "effectiveStartDateTime": "0000-12-31T23:07:00.000Z",
+              "effectiveEndDateTime": "0000-12-31T23:07:00.000Z",
+              "properties": null,
+              "catProperties": null,
+              "dirtyProperties": null,
+              "translation": null
+            },
+            "familyNameSoundExCode": null,
+            "givenNameSoundExCode": null,
+            "searchGivenName": null,
+            "searchFamilyName": null,
+            "searchPseudoGivenName": null,
+            "searchPseudoFamilyName": null,
+            "description": null,
+            "picDocusID": null,
+            "patientPhotoConsentStatus": 0,
+            "kvBirthDate": null,
+            "bicObjektID": null,
+            "patientIdentifier": {
+              "externAdminId": null,
+              "patientNumber": null,
+              "hL7StringId": null,
+              "hostId": 0
+            },
+            "hospitalUnit": null,
+            "addressingTitle": {
+              "id": 0,
+              "code": null,
+              "description": null,
+              "displaycode": null
+            },
+            "birthDateTime": "0000-12-31T23:07:00.000Z",
+            "ethnicGroup": null,
+            "gender": {
+              "id": 0,
+              "code": null,
+              "description": null,
+              "displaycode": null
+            },
+            "languageCommunication": {
+              "id": 0,
+              "code": null,
+              "description": null,
+              "displaycode": null
+            },
+            "maritalStatus": {
+              "id": 0,
+              "code": null,
+              "description": null,
+              "displaycode": null
+            },
+            "nationality": {
+              "id": 0,
+              "code": null,
+              "description": null,
+              "displaycode": null
+            },
+            "occupation": null,
+            "organDonorIndication": null,
+            "religiousAffiliation": {
+              "id": 0,
+              "code": null,
+              "description": null,
+              "displaycode": null
+            },
+            "representation": 0,
+            "title": {
+              "id": 0,
+              "code": null,
+              "description": null,
+              "displaycode": null
+            },
+            "personName": {
+              "familyName": null,
+              "givenName": null,
+              "prefixName": {
+                "id": 0,
+                "code": null,
+                "description": null,
+                "displaycode": null
+              },
+              "suffixName": {
+                "id": 0,
+                "code": null,
+                "description": null,
+                "displaycode": null
+              },
+              "phoneticGivenName": null,
+              "phoneticFamilyName": null,
+              "maidenName": null,
+              "birthNamePrefix": null,
+              "birthNameSuffix": null
+            },
+            "personIDs": {
+              "mpiNumber": null,
+              "nationalIdNumber": {
+                "id": 0,
+                "code": null,
+                "description": null,
+                "displaycode": null
+              },
+              "socialInsuranceNumber": null
+            },
+            "personsBloodGroup": {
+              "abo": null,
+              "rhFactor": null
+            },
+            "personTelecomInfo": {
+              "eMail": null,
+              "eMailInternal": null,
+              "mobile": null,
+              "pager": null,
+              "telex": null,
+              "telFAX": null,
+              "telPrimary": null,
+              "telVacation": null,
+              "telWorkDirect": null,
+              "telWorkPublic": null
+            },
+            "deathInformation": {
+              "deathCause": {
+                "id": 0,
+                "code": null,
+                "description": null,
+                "displaycode": null
+              },
+              "deathDate": null,
+              "deathTime": null,
+              "description": null,
+              "funeralParlor": null,
+              "isPatientDead": null,
+              "deathDateTime": "0000-12-31T23:07:00.000Z",
+              "properties": null,
+              "catProperties": null,
+              "dirtyProperties": null,
+              "translation": null
+            },
+            "primaryContact": {
+              "isPreferredAddress": false,
+              "objectId": 0,
+              "objectType": null,
+              "addressUse": null,
+              "addressType": null,
+              "addressId": 0,
+              "additionalAddressLine": null,
+              "careOf": null,
+              "district": null,
+              "city": null,
+              "country": null,
+              "county": null,
+              "postalCode": null,
+              "postBox": null,
+              "postBoxPostalCode": null,
+              "precinct": null,
+              "state": null,
+              "status": null,
+              "streetAddressLine": null,
+              "houseno": null,
+              "officialAreaCode": null,
+              "isValidated": null,
+              "cityPostBoxCode": null,
+              "postBoxCountry": null,
+              "displayText": null,
+              "rowID": null,
+              "itbrowid": 0,
+              "fingerPrintText": null,
+              "recordStatus": 1,
+              "properties": null,
+              "catProperties": null,
+              "dirtyProperties": null,
+              "translation": null
+            },
+            "personsEmployerInfo": {
+              "employerOrganizationName": null,
+              "startTimeWork": null,
+              "endTimeWork": null,
+              "employerCode": null,
+              "employerTelecomInfo": null,
+              "effectivePeriod": null,
+              "workAddress": null,
+              "jobTitle": null
+            },
+            "organDonorDescription": null,
+            "birthPlace": null,
+            "birthCountry": {
+              "id": 0,
+              "code": null,
+              "description": null,
+              "displaycode": null
+            },
+            "vipInfo": {
+              "vipCode": null,
+              "pseudoFamilyName": null,
+              "pseudoGivenName": null
+            },
+            "patientIndicators": {
+              "patientId": 0,
+              "isAdmissionThroughWizard": null,
+              "isExistInISH": null,
+              "isHiddenFromReception": null,
+              "isPastor": null,
+              "isEmergencyDataEntry": null,
+              "isKVBirthDate": null,
+              "ishQuickAdmission": null,
+              "indicationDeceased": null,
+              "hasPatientAlarm": null,
+              "isExternalPatient": null
+            },
+            "county": {
+              "id": 0,
+              "code": null,
+              "description": null,
+              "displaycode": null
+            },
+            "relatives": [],
+            "patientDetails": {
+              "id": 0,
+              "additionalTelecomInfo": null,
+              "addtionalPatientIdentifier": null,
+              "addtionalPersonIdentifier": null,
+              "rowID": null,
+              "itbrowid": 0,
+              "fingerPrintText": null,
+              "recordStatus": 1,
+              "properties": null,
+              "catProperties": null,
+              "dirtyProperties": null,
+              "translation": null
+            },
+            "displayText": null,
+            "patientInitials": null,
+            "addressList": [],
+            "fingerPrint": {
+              "creatingDateTime": null,
+              "creator": null,
+              "deletingDate": null,
+              "deletor": null,
+              "editingDateTime": null,
+              "editor": null
+            },
+            "patientIdentifierList": [],
+            "patientAge": null,
+            "isPatientVIP": false,
+            "rowID": null,
+            "itbrowid": 0,
+            "fingerPrintText": null,
+            "recordStatus": 1,
+            "properties": null,
+            "catProperties": null,
+            "dirtyProperties": null,
+            "translation": null
+          },
+          "personNumber": null,
+          "rowID": null,
+          "itbrowid": 0,
+          "fingerPrintText": null,
+          "recordStatus": 2,
+          "properties": null,
+          "catProperties": null,
+          "dirtyProperties": null,
+          "translation": null,
+          "displayNameOnCard": "Akshay Deva",
+          "displayAddressLineOnCard": "124",
+          "displayPostalCodeCityOnCard": "68219, berlin, DE"
+        }
+      ]
+    },
+    "admissionInitConfiguration": {
+      "defaultCountryCode": "DE"
+    }
+  }
