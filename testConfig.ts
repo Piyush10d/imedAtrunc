@@ -1,4 +1,5 @@
-export const testconfig={
-"URL":"https://i1imedenga.imedone.ap.dtcs.local/im1ws_imedenga/#/login"
-
+export const data={
+ URL:"https://github.com/login",
+ sName:"Piyush10d",
+ sPassword:"Github@1010d"
 }

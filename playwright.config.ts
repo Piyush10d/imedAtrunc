@@ -1,7 +1,7 @@
 import type { PlaywrightTestConfig } from "@playwright/test";
 
 const config: PlaywrightTestConfig = {
-  testMatch : ["tests/recorded.spec.ts"],
+  testMatch : ["tests/basicInteraction.spec.ts"],
   use:{
     baseURL:"https://ecommerce-playground.lambdatest.io/index.php?",
     headless:false,
@@ -15,6 +15,7 @@ const config: PlaywrightTestConfig = {
   workers:1,
   retries:0,
   reporter: [
+
     ["dot"],
     ["json",{ outputfile: "jsonReports/jsonReport.json" }],
     ["html",{ open:"always" }]

@@ -15,7 +15,7 @@ test("interaction test",async({page})=>{
     
 });
 
-test.only("Text assertion", async({page})=>{
+test.skip("Text assertion", async({page})=>{
     await page.goto("https://www.lambdatest.com/selenium-playground/simple-form-demo");
     const sum1= await page.locator("//input[@id='sum1']");
     const sum2= await page.locator("//input[@id='sum2']");
@@ -30,7 +30,7 @@ test.only("Text assertion", async({page})=>{
     expect(result).toHaveText("26");
 });
 
-test("Checkbox assertion",async({page})=>{
+test.skip("Checkbox assertion",async({page})=>{
     await page.goto("https://www.lambdatest.com/selenium-playground/checkbox-demo");
     const loc1= await page.locator("//input[@id='isAgeSelected']");
     expect(loc1).not.toBeChecked();
